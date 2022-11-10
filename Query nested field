@@ -1,0 +1,2 @@
+https://www.mongodb.com/docs/manual/tutorial/query-embedded-documents/
+db.inventory.find( { "size.h": { $lt: 15 } } )
